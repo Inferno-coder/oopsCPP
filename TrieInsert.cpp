@@ -24,6 +24,7 @@ public:
               temp=temp->links[bit];
           }
       }
+//getting max in trie
       int getMax(int num){
           int maxi=0;
           Node* temp=root;
