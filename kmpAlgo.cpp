@@ -35,6 +35,7 @@ public:
       i++;j++;
      }
      if(j==m){
+       //return true if it asked whether present or not
        cout<<"pattern found in "<<i-j<<endl;
        j=lps[j-1];
      }
