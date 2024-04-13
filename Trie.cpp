@@ -36,7 +36,7 @@ public:
      if(temp->flag==false)return false;
      return true;
  }
- 
+ //finding the prefix of the string
  bool prefix(string str){
        Node* temp=root;
      for(int i=0;i<str.length();i++){
