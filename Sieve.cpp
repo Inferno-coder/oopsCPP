@@ -9,7 +9,7 @@ class Sieve{
     isPrime[0]=false;
     isPrime[1]=false;
     createSieve(size);
-    }
+    };
     void createSieve(int n){
         for(int i=2;i*i<=n;i++){
             if(isPrime[i]==true){
